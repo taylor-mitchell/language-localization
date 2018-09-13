@@ -1,0 +1,4 @@
+Languages
+en,fr,es,de,nl,ar,zh-CN
+Credential Path
+C:\Creds\Translation-project-fa071178a5fd.json

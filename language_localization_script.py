@@ -81,7 +81,7 @@ def translate_elements(filename = "en_csv.csv", filepath = '.\\', language = 'en
                 output_str+= data[localized_text_index]            
             else:
                 print('Translation')
-                translation = translate_client.translate(data[localized_text_index], target_language = language)
+                translation = translate_client.translate(data[localized_text_index], source_language = 'en', target_language = language)
                 output_str+=translation['translatedText'].replace("\n", "")
             output_str+='\');\n'
             index+=1
@@ -91,8 +91,7 @@ def translate_elements(filename = "en_csv.csv", filepath = '.\\', language = 'en
     with open(filepath + "\\" + language[:2] + "_text.txt", 'w', encoding = 'utf-8') as f:
         f.write(output_str)
         
-    return output_str  
-
+    return output_str
     
 def translate_all(fp = "c:\\devel\\Language Localization"):
     with open(fp + "\\localization_text.txt", 'w', encoding = 'utf-8') as f:
@@ -144,8 +143,6 @@ def main():
             f.write(output)
             f.write('\n')
 
-if __name__ == '__main__':
-    main()
 
 
 
