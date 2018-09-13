@@ -1,0 +1,3 @@
+insert into localized_text values('APPLICATION/PORTAL/NOTIFICATION/NO_NEW_MESSAGES',' PORTAL','fr','Vous n&#39;avez pas de nouveaux messages.');
+insert into localized_text values('APPLICATION/PORTAL/NOTIFICATION/MESSAGE_HISTORY',' PORTAL','fr','Historique du message');
+insert into localized_text values('APPLICATION/PORTAL/SIDEBAR/COLLAPSE',' PORTAL','fr','Effondrer');

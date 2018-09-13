@@ -1,0 +1,4 @@
+insert into localized_text values('APPLICATION/PORTAL/NOTIFICATION/NO_NEW_MESSAGES',' PORTAL','zh','你没有新消息。');
+insert into localized_text values('APPLICATION/PORTAL/NOTIFICATION/MESSAGE_HISTORY',' PORTAL','zh','消息历史');
+insert into localized_text values('APPLICATION/PORTAL/SIDEBAR/COLLAPSE',' PORTAL','zh','坍方');
+

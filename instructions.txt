@@ -1,0 +1,12 @@
+﻿1. install python 3
+2. in the command line, do the following command:
+	pip install --upgrade google-cloud-translate
+3. if you don't have access to google cloud API credentials, make sure to get a google cloud account
+	instructions are at https://cloud.google.com/translate/docs/reference/libraries
+3. in the language_localization.py file, change the credential_path variable at the top to the path 
+   of the .json file with your google credentials
+4. run the language_localization.py module
+5. type in the following command into the python shell:
+	translate_all("<<<PUT THE FILEPATH TO THE FOLDER THAT CONTAINS en_csv.csv HERE>>>")
+6. output should be in a file called "localization_text.txt"
+7. if it's not, interrogate taylor as to why not
